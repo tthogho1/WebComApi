@@ -1,0 +1,3 @@
+C:\Users\ndics\source\repos\WebComApi\WebComApi\obj\Debug\WebComApi.njsproj.CoreCompileInputs.cache
+C:\Users\ndics\source\repos\WebComApi\WebComApi\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\ndics\source\repos\WebComApi\WebComApi\obj\Debug\WebComApi.njsprojAssemblyReference.cache
