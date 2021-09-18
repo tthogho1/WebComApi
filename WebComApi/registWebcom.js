@@ -54,8 +54,18 @@ const transaction = async () => {
         });
 
         const db = client.db("webcom");
-        db.collection(collectionName).drop();
+	const collections = await db.listCollections().toArray();
 
+	let isfound = false;
+	collections.forEach(collection => {
+		console.log(collection);
+		if (collection.name == collectionName){
+			isfound = true;
+		}
+	});
+	if (isfound){
+       		db.collection(collectionName).drop();
+	}
         var offset = 0;
         var total = 1; // set for start 
         while (offset < total) {
