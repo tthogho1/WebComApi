@@ -12,7 +12,7 @@ function webComRequest() {
     var offset = 0;
 
     let baseurl = 'https://api.windy.com/api/webcams/v2/list/limit=50,';
-    let parameters = '?lang=en&key=4tpguJklGSjb3f0nVny1wwR9bqHquToz&show=webcams:player,location';
+    let parameters = '?lang=en&key=4tpguJklGSjb3f0nVny1wwR9bqHquToz&show=webcams:image,player,location';
 
     const args = {
         headers: { 'Content-Type': 'application/json' }
